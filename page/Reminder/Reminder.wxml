@@ -1,0 +1,9 @@
+<text>
+温馨提示：
+所有页面基本布局完成，就差个首页底部页面，头部新建了一个公用组件，直接调用的头部，但是下面的切换方式不对，还需要更改
+</text>
+<view>未完成：页面渲染，传参，抛物线</view>
+<text>2019年8月11号</text>
+
+<navigator url="../goods/goods">点击此处跳转首页 <text>或者把Reminder组件路由移到下面</text></navigator>
+

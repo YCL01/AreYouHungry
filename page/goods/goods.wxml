@@ -1,0 +1,103 @@
+<view class="goods">
+  <include src="../Myheader/Myheader"></include>
+  <view class="body">
+    <view class="byList">
+      <view class="danList" wx:for="{{comData}}" wx:key="index">
+        <view>{{item.name}}</view>
+      </view>
+    </view>
+    <scroll-view class="commodity" scroll-y>
+      <view wx:for="{{comData}}" wx:key="index">
+        <view class="fenname">{{item.name}}</view>
+        <view class="liis" wx:for="{{item.foods}}" wx:key="index" wx:for-item="foods" bindtap="Toxiang" data-xiang="{{foods}}">
+          <image src="{{foods.image}}" class="pigname"></image>
+          <view class="shopname">
+            <view>{{foods.name}}</view>
+            <view>{{foods.description}}</view>
+            <view>
+              <text>月售{{foods.sellCount}}份</text>
+            </view>
+            <view class="price">￥{{foods.price}}
+              <text>{{foods.oldPrice}}</text>
+            </view>
+          </view>
+          <view></view>
+        </view>
+        <!-- <view wx:for="{{comData.foods}}" wx:key="index">
+          {{item.description}}
+        </view> -->
+      </view>
+    </scroll-view>
+  </view>
+  <view class="foot">
+    <view class="homcart">
+      <view>
+        <image src="../../img/gwc.jpg"></image>
+      </view>
+    </view>
+    <view class="many">
+      <view class="talpig">￥0</view>
+      <view class="peifei">另需配送费￥4元</view>
+      <view class="qisong">￥20起送</view>
+    </view>
+  </view>
+  <!-- 遮罩层 -->
+  <view class="mask">
+    <view>粥品香坊(大运村)</view>
+    <view class="Stars">
+      <image src="../../img/star36_on@2x.png"></image>
+      <image src="../../img/star36_on@2x.png"></image>
+      <image src="../../img/star36_on@2x.png"></image>
+      <image src="../../img/star36_on@2x.png"></image>
+      <image src="../../img/star36_off@2x.png"></image>
+    </view>
+    <view class="Preferential">
+      <view class="Preferential-title">
+        <view></view>
+        <text>优惠信息</text>
+        <view></view>
+      </view>
+      <view class="Preferential-content">
+        <view>
+          <image src="../../img/decrease_3@2x.png"></image>
+          <text>在线支付满28减5，满50减10</text>
+        </view>
+        <view>
+          <image src="../../img/discount_3@2x.png"></image>
+          <text>在线支付满28减5，满50减10</text>
+        </view>
+        <view>
+          <image src="../../img/discount_3@2x.png"></image>
+          <text>在线支付满28减5，满50减10</text>
+        </view>
+        <view>
+          <image src="../../img/special_3@2x.png"></image>
+          <text>在线支付满28减5，满50减10</text>
+        </view>
+        <view>
+          <image src="../../img/special_3@2x.png"></image>
+          <text>在线支付满28减5，满50减10</text>
+        </view>
+        <view>
+          <image src="../../img/invoice_1@2x.png"></image>
+          <text>在线支付满28减5，满50减10</text>
+        </view>
+        <view>
+          <image src="../../img/guarantee_1@2x.png"></image>
+          <text>在线支付满28减5，满50减10</text>
+        </view>
+      </view>
+    </view>
+    <view class="Notice">
+      <view class="Notice-title">
+        <view></view>
+        <text>商家公告</text>
+        <view></view>
+      </view>
+      <view class="Notice-content">
+        粥品香坊粥品香坊粥品香坊粥品香坊粥品香坊粥品香坊粥品香坊粥品香坊 粥品香坊粥品香坊粥品香坊粥品香坊粥品香坊粥品香坊粥品香坊粥品香坊 粥品香坊粥品香坊粥品香坊粥品香坊粥品
+      </view>
+    </view>
+    <view class="Close">x</view>
+  </view>
+</view>

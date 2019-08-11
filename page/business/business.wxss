@@ -1,0 +1,203 @@
+@import "../Myheader/Myheader";
+.score {
+  width: 100%;
+  display: flex;
+  height: 220rpx;
+  padding: 36rpx 0;
+}
+
+.score .left {
+  width: 275rpx;
+  height: 220rpx;
+  padding: 40rpx 0;
+  box-sizing: border-box;
+  text-align: center;
+  border-right: 1rpx solid rgba(0, 0, 0, 0.6);
+}
+.one{
+  font-size: 48rpx;
+  color: rgb(255, 153, 0);
+  /* line-height: 56rpx; */
+}
+.two{
+  font-size: 24rpx;
+  color: rgb(7, 17, 27);
+  /* line-clamp: 24rpx; */
+}
+.three{
+  font-size: 20rpx;
+  color: rgb(204, 204, 204);
+}
+.LightenUp{
+  width: 350rpx;
+  margin: 0 auto 16rpx;
+  display: flex;
+}
+.WrittenWords{
+  margin-right:24rpx;
+  font-size: 24rpx;
+  color: rgb(7,17,27)
+}
+.time{
+    font-size: 24rpx;
+    color: rgb(147, 153, 159);
+}
+.Stars{
+  display: flex;
+  margin-right: 24rpx;
+}
+.Stars image{
+  width: 36rpx;
+  height: 36rpx;
+}
+.Stars>view:nth-child(2){
+  font-size: 30rpx;
+  font-weight: 200;
+  color: rgb(147,153,159);
+  margin-left: 12rpx;
+  /* line-height: 24rpx; */
+}
+.score .right {
+  width: 474rpx;
+  text-align: center;
+  padding: 40rpx 0;
+  box-sizing: border-box;
+}
+.bor{
+  width: 100%;
+  height: 40rpx;
+  border-top: 2rpx solid rgba(204, 204, 204, 0.6);
+  border-bottom: 2rpx solid rgba(204, 204, 204, 0.6);
+  background: rgba(204, 204, 204, 0.4)
+}
+.evaluate{
+  width: 100%;
+  padding:36rpx;
+  box-sizing:border-box;
+}
+.btn {
+  width:98%;
+  height: 80rpx;
+  padding: 24rpx 0 36rpx 0;
+  border-bottom: 1rpx solid rgba(7,17,27,0.1);
+}
+.btn>text{
+  display:inline-block;
+  width:180rpx;
+  height:80rpx;
+  line-height:80rpx;
+  text-align: center;
+  margin-right: 16rpx;
+  font-size:24rpx/16rpx;
+  border-radius: 2rpx;
+}
+.btn>text:nth-child(1){
+  color: rgb(255,255,255);
+  background:rgb(66,158,214);
+}
+.btn>text:nth-child(2){
+  color:rgb(77,85,93);
+  background:rgb(210,235,246);
+}
+.btn>text:nth-child(3){
+  color:rgb(77,85,93);
+  background:rgba(77,85,93,0.2);
+}
+.JustLook{
+  width: 100%;
+  height:80rpx;
+  padding-left:36rpx;
+  box-sizing: border-box; 
+  display: flex;
+  border-bottom: 1rpx solid rgb(204,204,204);
+}
+ .JustLook>view{
+  width: 48rpx;
+  height: 48rpx;
+  line-height: 48rpx;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 48rpx;
+  color: white;
+  background:rgb(147, 153, 159);
+  margin-right:8rpx;
+}
+
+.JustLook>text{
+  display: inline-block;
+   height: 48rpx;
+  font-size:24rpx;
+  color: rgb(147, 153, 159);
+  line-height: 48rpx;
+}
+.main{
+  width: 100%;
+}
+.content{
+  width: 90%;
+  padding: 36rpx 0;
+  margin: 0 auto;
+  border-bottom: 1rpx solid rgba(204,204,204,0.8);
+}
+.content-top{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.content-top .left{
+  display: flex;
+}
+.content-top .left .HeadPortrait{
+  width: 56rpx;
+  height: 56rpx;
+  margin-right: 24rpx;
+  border-radius: 50%;
+}
+.content-top .left text{
+  display: inline-block;
+  font-size: 30rpx;
+  color: rgb(7, 17, 27);
+  margin-bottom: 8rpx;
+}
+ .service{
+  font-size: 20rpx;
+  font-weight: 200;
+  color: rgb(147, 153, 159);
+  line-height: 24rpx;
+}
+.content-top .right{
+  font-size: 26rpx;
+  color: rgb(147, 153, 159);
+}
+.content-center{
+  font-size: 32rpx;
+  color: rgb(7, 17,27);
+  margin: 12rpx 0 16rpx 0;
+  /* line-height: 36rpx */
+
+}
+.content-bottom{
+  display: flex;
+  margin-right: 16rpx;
+}
+.content-bottom .Fabulous{
+  /* font-size: 24rpx;
+  color: rgb(183, 187, 191);
+  line-height: 32rpx; */
+  width: 90rpx;
+  height: 40rpx;
+}
+.content-bottom>view{
+  width: 140rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  border: 1rpx solid;
+  border-width: 1rpx;
+  border-color: rgba(7,17, 27, 0.1);
+  border-radius: 2rpx;
+  background-color: rgb(255, 255, 255);
+  font-size: 22rpx;
+  color: rgb(147, 153, 159);
+  margin-right: 16rpx;
+}

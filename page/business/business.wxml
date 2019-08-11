@@ -1,0 +1,140 @@
+<view class="business">
+<include src="../Myheader/Myheader"></include>
+  <view class="score">
+    <view class="left">
+      <text class="one">3.9</text>
+      <view class="two">综合评分</view>
+      <text class="three">高于周边商家69.2%</text>
+    </view>
+    <view class="right">
+      <view class="LightenUp">
+        <text class="WrittenWords">服务态度</text>
+        <view class="Stars">
+          <image src="../../img/star36_on@2x.png"></image>
+          <image src="../../img/star36_on@2x.png"></image>
+          <image src="../../img/star36_on@2x.png"></image>
+          <image src="../../img/star36_on@2x.png"></image>
+          <image src="../../img/star36_off@2x.png"></image>
+        </view>
+      </view>
+      <view class="LightenUp">
+        <text class="WrittenWords">服务态度</text>
+        <view class="Stars">
+          <image src="../../img/star36_on@2x.png"></image>
+          <image src="../../img/star36_on@2x.png"></image>
+          <image src="../../img/star36_on@2x.png"></image>
+          <image src="../../img/star36_on@2x.png"></image>
+          <image src="../../img/star36_off@2x.png"></image>
+        </view>
+      </view>
+      <view class="LightenUp">
+        <text class="WrittenWords">送达时间</text>
+        <text class="time">44分钟</text>
+      </view>
+    </view>
+  </view>
+  <view class="bor"></view>
+  <view class="evaluate">
+    <view class="btn">
+      <text>全部<text>57</text></text>
+      <text>推荐<text>47</text></text>
+      <text>吐槽 <text>10</text></text>
+    </view>
+  </view>
+  <view class="JustLook">
+    <view>✓</view>
+    <text>只看评论有内容的评论</text>
+  </view>
+  <view class="main">
+    <view class="content">
+      <view class="content-top">
+        <view class="left">
+          <image src="../../img/1.jpg" class="HeadPortrait"></image>
+          <view>
+            <text>聚****家</text>
+            <view class="Stars">
+              <view>
+                <image src="../../img/star36_on@2x.png"></image>
+                <image src="../../img/star36_on@2x.png"></image>
+                <image src="../../img/star36_on@2x.png"></image>
+                <image src="../../img/star36_on@2x.png"></image>
+                <image src="../../img/star36_off@2x.png"></image>
+              </view>
+              <view>60分钟送达</view>
+            </view>
+          </view>
+        </view>
+        <view class="right">2016-07-13 20:22</view>
+      </view>
+      <view class="content-center">
+        这次太慢了，下次希望能直接和客户沟通而不是我一次次打电话问，但快递师傅态度很好
+      </view>
+      <view class="content-bottom">
+        <image src="../../img/Fabulous.jpg" class="Fabulous"></image>
+        <view>大王香菇</view>
+        <view>大王香菇</view>
+        <view>大王香菇</view>
+      </view>
+    </view>
+    <view class="content">
+      <view class="content-top">
+        <view class="left">
+          <image src="../../img/1.jpg" class="HeadPortrait"></image>
+          <view>
+            <text>聚****家</text>
+            <view class="Stars">
+              <view>
+                <image src="../../img/star36_on@2x.png"></image>
+                <image src="../../img/star36_on@2x.png"></image>
+                <image src="../../img/star36_on@2x.png"></image>
+                <image src="../../img/star36_on@2x.png"></image>
+                <image src="../../img/star36_off@2x.png"></image>
+              </view>
+              <view>60分钟送达</view>
+            </view>
+          </view>
+        </view>
+        <view class="right">2016-07-13 20:22</view>
+      </view>
+      <view class="content-center">
+        这次太慢了，下次希望能直接和客户沟通而不是我一次次打电话问，但快递师傅态度很好
+      </view>
+      <view class="content-bottom">
+        <image src="../../img/Fabulous.jpg" class="Fabulous"></image>
+        <view>大王香菇</view>
+        <view>大王香菇</view>
+        <view>大王香菇</view>
+      </view>
+    </view>
+    <view class="content">
+      <view class="content-top">
+        <view class="left">
+          <image src="../../img/1.jpg" class="HeadPortrait"></image>
+          <view>
+            <text>聚****家</text>
+            <view class="Stars">
+              <view>
+                <image src="../../img/star36_on@2x.png"></image>
+                <image src="../../img/star36_on@2x.png"></image>
+                <image src="../../img/star36_on@2x.png"></image>
+                <image src="../../img/star36_on@2x.png"></image>
+                <image src="../../img/star36_off@2x.png"></image>
+              </view>
+              <view class="service">60分钟送达</view>
+            </view>
+          </view>
+        </view>
+        <view class="right">2016-07-13 20:22</view>
+      </view>
+      <view class="content-center">
+        这次太慢了，下次希望能直接和客户沟通而不是我一次次打电话问，但快递师傅态度很好
+      </view>
+      <view class="content-bottom">
+        <image src="../../img/Fabulous.jpg" class="Fabulous"></image>
+        <view>大王香菇</view>
+        <view>大王香菇</view>
+        <view>大王香菇</view>
+      </view>
+    </view>
+  </view>
+</view>

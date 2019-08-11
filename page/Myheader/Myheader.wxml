@@ -1,0 +1,24 @@
+<view class="head">
+  <view class="hea"></view>
+  <view></view>
+  <view class="usehead">
+    <view class="headid">
+      <image src="../../img/2.jpg"></image>
+    </view>
+    <view>
+      <view class="namhed">
+        <image src="../../img/brand@2x.png" />
+        <text>粥品香坊（大运村）</text>
+      </view>
+      <view>蜂鸟专送/38分钟送达</view>
+      <view class="manjian">
+        <image src="../../img/decrease_1@2x.png" />在线支付满28减5，满50减10</view>
+    </view>
+    <view></view>
+  </view>
+</view>
+<view class="tiao swiper-tab">
+  <navigator url="../goods/goods">商品</navigator>
+  <navigator url="../business/business">评价</navigator>
+  <navigator url="../BusinessPage/BusinessPage">商家</navigator>
+</view>

@@ -1,0 +1,128 @@
+<view class="BusinessPage">
+  <include src="../Myheader/Myheader"></include>
+  <view class="information">
+    <view class="information-top">
+      <view class="left">
+        <text class="title">粥品香坊(大运村)</text>
+        <view class="Stars">
+          <view>
+            <image src="../../img/star36_on@2x.png"></image>
+            <image src="../../img/star36_on@2x.png"></image>
+            <image src="../../img/star36_on@2x.png"></image>
+            <image src="../../img/star36_on@2x.png"></image>
+            <image src="../../img/star36_off@2x.png"></image>
+          </view>
+          <view>(661) 月售690单</view>
+        </view>
+      </view>
+      <view class="right">
+        <image src="../../img/xin.png"></image>
+        <text>已收藏</text>
+      </view>
+    </view>
+    <view class="information-bottom">
+      <view>
+        <view>起送价</view>
+        <view>
+          <text>20</text>元</view>
+      </view>
+      <view>
+        <view>起送价</view>
+        <view>
+          <text>20</text>元</view>
+      </view>
+      <view>
+        <view>起送价</view>
+        <view>
+          <text>20</text>元</view>
+      </view>
+    </view>
+  </view>
+  <view class="Notice">
+    <text class="ty">公告与活动</text>
+    <view>
+      粥品香坊其烹饪的秘方源于中国千年古法， 粥品香坊其烹饪的秘方源于中国千年古法， 粥品香坊其烹饪的秘方源于中国千年古法， 粥品香坊其烹饪的秘方源于中国千年古法， 粥品香坊其烹饪的秘方源于中国千年古法， 粥品香坊其烹饪的秘方源于中国千年古法， 粥品香坊其烹饪的秘方源于中国千年古法， 粥品香坊其烹饪的秘方源于中国千年古法，
+    </view>
+  </view>
+  <view class="activity">
+    <view>
+      <image src="../../img/decrease_3@2x.png"></image>
+      <text>在线支付满28减5，满50减10</text>
+    </view>
+    <view>
+      <image src="../../img/discount_3@2x.png"></image>
+      <text>在线支付满28减5，满50减10</text>
+    </view>
+    <view>
+      <image src="../../img/discount_3@2x.png"></image>
+      <text>在线支付满28减5，满50减10</text>
+    </view>
+    <view>
+      <image src="../../img/special_3@2x.png"></image>
+      <text>在线支付满28减5，满50减10</text>
+    </view>
+    <view>
+      <image src="../../img/special_3@2x.png"></image>
+      <text>在线支付满28减5，满50减10</text>
+    </view>
+    <view>
+      <image src="../../img/invoice_1@2x.png"></image>
+      <text>在线支付满28减5，满50减10</text>
+    </view>
+    <view>
+      <image src="../../img/guarantee_1@2x.png"></image>
+      <text>在线支付满28减5，满50减10</text>
+    </view>
+  </view>
+
+  <view class="BusinessScene">
+    <text class="ty">商家实景</text>
+    <view>
+      <view>
+        <image src="../../img/sj.png"></image>
+      </view>
+      <view>
+        <image src="../../img/sj.png"></image>
+      </view>
+      <view>
+        <image src="../../img/sj.png"></image>
+      </view>
+      <view>
+        <image src="../../img/sj.png"></image>
+      </view>
+      <view>
+        <image src="../../img/sj.png"></image>
+      </view>
+      <view>
+        <image src="../../img/sj.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class="BusinessInformation">
+    <text class="ty">商家信息</text>
+    <view class="one">该商家支持开发票，请在下单时填好发票抬头</view>
+    <view>品类：其它菜系，包子粥店</view>
+    <view>地址：北京市昌平区回龙观西大街关置业大厦底商B座102单元1340</view>
+    <view class="last">营业时间：10:00-23:30</view>
+  </view>
+  <view class="foot">
+    <view class="homcart">
+      <view>
+        <image src="../../img/gwc.jpg"></image>
+      </view>
+    </view>
+    <view class="many">
+      <view class="talpig">￥0</view>
+      <view class="peifei">另需配送费￥4元</view>
+      <view class="qisong">￥20起送</view>
+    </view>
+  </view>
+
+
+
+
+
+
+
+
+</view>

@@ -1,0 +1,196 @@
+@import "../Myheader/Myheader";
+.body{
+  height: 875rpx;
+}
+.byList{
+  width: 20%;
+  /* height: 100%; */
+  height: 938rpx;
+  background: #f3f5f7;
+  float: left;
+  border-right:1px solid  #cccccc;
+}
+.commodity{
+  width: 79%;
+  height: 966rpx;
+  float: right;
+  /* background: red; */
+  /* overflow: auto; */
+  /* padding-left: 50rpx; */
+}
+.pigname{
+  width: 180rpx;
+  height: 180rpx;
+}
+.danList{
+  height: 11%;
+  width: 100%;
+  /* padding: 5rpx 10rpx; */
+  font-size: 24rpx;
+  /* line-height: 9.8%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom:1px solid #cccccc ;
+}
+.liis{
+  padding: 36rpx;
+  display: flex;
+  justify-content: flex-start;
+}
+.price{
+  color: rgb(240, 20, 20)
+}
+.shopname{
+  padding-left:20rpx 
+}
+.foot{
+  height: 100rpx;
+  width:100%;
+  background: #141d27;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  /* position: relative; */
+}
+.homcart{
+  padding: 12rpx;
+  height: 116rpx;
+  width: 116rpx;
+  background: #141d27;
+  border-radius: 50%;
+  position: absolute;
+  left: 20rpx;
+  bottom: 4rpx;
+}
+.homcart view{
+  width: 88rpx;
+  height: 88rpx;
+  background: rgb(45, 52, 59);
+  border-radius: 50%;
+  margin: 14rpx auto;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homcart view>image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.many{
+  line-height: 100rpx;
+  display: flex;
+  color: rgb(255, 255, 255,0.4);
+  justify-content: flex-end;
+}
+.qisong{
+  width: 210rpx;
+  background: rgb(255, 255, 255,0.2);
+  text-align: center;
+  font-size: 32rpx;
+  font-weight: 700;
+}
+.peifei{
+  padding-left:24rpx; 
+  width: 280rpx;
+}
+.talpig{
+  padding-right:24rpx;
+  border-right: 1px solid rgba(255,255,255,0.1) ;
+  height: 48rpx;
+  margin-top:30rpx; 
+  line-height: 134%;
+  font-size: 38rpx;
+  font-weight: 700;
+  z-index: 10
+}
+/* .many view{
+  float: left;
+  margin-left: 125rpx;
+  color: white;
+} */
+.mask{
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(7, 17, 27,0.8);
+  padding: 128rpx 0;
+  box-sizing: border-box;
+}
+.mask>view:nth-child(1){
+  text-align: center;
+  font-size: 32rpx;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  line-height: 32rpx;
+  margin-bottom: 32rpx;
+}
+.Stars{
+  display: flex;
+  justify-content: center;
+}
+.Stars image{
+  width: 48rpx;
+  height: 48rpx;
+  margin-right: 35rpx;
+}
+.Preferential-title,.Notice-title{
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  color: white;
+  margin-top:56rpx;
+  margin-bottom: 48rpx;
+}
+.Preferential-title>view,.Notice-title>view{
+  border: 1rpx solid rgb(255, 255, 255,0.2);
+  width: 224rpx;
+}
+.Preferential-title>text{
+margin: 0 24rpx;
+}
+.Preferential-content{
+  width: 100%;
+  padding: 0 100rpx;
+  box-sizing: border-box;
+}
+
+.Preferential-content>view{
+  display: flex;
+  margin-bottom: 24rpx;
+}
+.Preferential-content image{
+  margin-right:12rpx;
+  width: 32rpx;
+  height: 32rpx;
+  border-radius: 5rpx;
+}
+.Preferential-content text{
+  font-size: 24rpx;
+  font-weight: 200;
+  color: rgb(255, 255, 255);
+  /* line-height: 32rpx; */
+}
+.Notice-content{
+  width: 75%;
+  margin: 0 auto;
+  font-size: 24rpx;
+  font-weight: 200;
+  color: rgb(255,255,255);
+  line-height: 48rpx;
+}
+.Close{
+  text-align: center;
+  font-size: 64rpx;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.navigator-hover {
+  color:red;
+}

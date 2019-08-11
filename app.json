@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "page/Reminder/Reminder",
+    "page/goods/goods",
+    "page/BusinessPage/BusinessPage",
+    "page/business/business", 
+    "page/details/details",
+    "page/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ]
+}
