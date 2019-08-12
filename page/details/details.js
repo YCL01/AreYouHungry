@@ -4,7 +4,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+     detList:[]
   },
 
   /**
@@ -12,8 +12,9 @@ Page({
    */
   onLoad: function (options) {
     // var pat = JSON.stringify(options)
-    var patlist = JSON.parse(options.xiang)
-    console.log(patlist)
+    var patlist = decodeURIComponent(options.xiang)
+    this.detList = JSON.parse(patlist)
+    console.log(this.detList)
   },
 
   /**

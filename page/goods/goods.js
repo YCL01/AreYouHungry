@@ -35,7 +35,7 @@ Page({
         
         
         // _this.data.messg = res.data.goods
-        console.log(i)
+        console.log(_this.comData)
         // console.log(res.data.goods[])
       }
     })
@@ -53,7 +53,8 @@ Page({
   },
   Toxiang: function (e){
     var aa = e.currentTarget.dataset.xiang
-    var xiang = JSON.stringify(aa)
+
+    var xiang = encodeURIComponent( JSON.stringify(aa))
     
     console.log(xiang)
     

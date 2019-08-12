@@ -3,7 +3,7 @@
     <image class="banner" src="../../img/1.jpg"></image>
   </view>
   <view class="description">
-    <text class="title">皮蛋瘦肉粥</text>
+    <view class="title">{{detList.name}}</view>
     <text class="SalesVolume">
  月售1132份<text>好评率100%</text> </text>
     <view class="buy">
